@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-        
-    <wb-module deploy-name="filter1">
-                
-        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
-                
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-                
-        <property name="java-output-path" value="/filter1/build/classes"/>
-        <property name="context-root" value="filter1"/>
             
-    </wb-module>
     
+    <wb-module deploy-name="filter-impl">
+                        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                        
+        
+        <property name="java-output-path" value="/filter-impl/build/classes"/>
+        <property name="context-root" value="filter-impl"/>
+                    
+    
+    </wb-module>
+        
+
 </project-modules>
